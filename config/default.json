@@ -1,0 +1,29 @@
+{
+    "log": {
+        "logConfig": {
+            "logFolder": "./logs/sms_service/",
+            "logFile": "sms_service_%DATE%.log",
+            "logLevel": "debug",
+            "datePattern": "YYYY-MM-DD-HH",
+            "zippedArchive": true,
+            "maxSize": "20m",
+            "maxFiles": "900d"
+        }
+    },
+    "sms": {
+        "credentials": {
+            "username": "Your username",
+            "password": "Your Password"
+        },
+        "wsdl": "https://msmsenterpriseapi.mobitel.lk/mSMSEnterpriseAPI/mSMSEnterpriseAPICEB.wsdl",
+        "sender": "CEB",
+        "priority": 1,
+        "messageType": 0,
+        "sessionOverlapInMin": 10,
+        "deliveryCheckIntervalInMinutes": 1,
+        "smsSessionRecheckIntervalInMinutes": 5,
+        "admin_message": {
+            "number": "mobile number goes here"
+        }
+    }
+}

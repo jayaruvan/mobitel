@@ -1,0 +1,26 @@
+{
+  "name": "mobitel",
+  "version": "1.0.0",
+  "description": "\"# mobitel\"",
+  "main": "mobitel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jayaruvan Dissanayake (jayaruvan@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.9",
+    "loggerj": "^1.0.4",
+    "soap": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayaruvan/mobitel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jayaruvan/mobitel/issues"
+  },
+  "homepage": "https://github.com/jayaruvan/mobitel#readme"
+}
